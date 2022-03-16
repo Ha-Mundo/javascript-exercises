@@ -12,7 +12,6 @@ const ctof = function (temp) {
   return roundedfahrenheit;
 };
 
-console.log(ftoc(-32), ctof(0));
 ftoc(-32);
 ctof(0);
 
