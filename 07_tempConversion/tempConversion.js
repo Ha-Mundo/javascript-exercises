@@ -1,15 +1,15 @@
 const ftoc = function (temp) {
   //	[°C] = ([°F] − 32) × 5⁄9
+
   let celsius = ((temp - 32) * 5) / 9;
-  let roundedCelsius = Math.round(celsius * 10) / 10;
-  return roundedCelsius;
+  return Math.round(celsius * 10) / 10;
 };
 
 const ctof = function (temp) {
   // [°F] = [°C] × 9⁄5 + 32
+
   let fahrenheit = temp * (9 / 5) + 32;
-  let roundedfahrenheit = Math.round(fahrenheit * 10) / 10;
-  return roundedfahrenheit;
+  return Math.round(fahrenheit * 10) / 10;
 };
 
 ftoc(-32);
